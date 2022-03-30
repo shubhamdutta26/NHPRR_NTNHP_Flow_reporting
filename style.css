@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,400i,700&display=swap');
+
+.title {
+  color: #002060;
+  font-size: 10px;
+}
+
+a { 
+  color: #4e89bf;
+}
+
+a:hover {
+  color: #396892; /* darker color when hovering */
+}
+
+#header::before {
+  content: "";
+  height: 100px;
+  width: 300px;
+  float: right;
+  background-image: url("nhprrLogo.png");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
